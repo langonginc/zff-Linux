@@ -22,6 +22,6 @@ zff从4.0版本开始将支持linux系统！**暂时测试中，稍后开放！*
 
 ### 帮助文档
 
-https://github.com/langonginc/zff/wiki/
+[Wiki](https://github.com/langonginc/zff/wiki/)
 
-[1](http://victorwoo.synology.me:8980)
+[个人中心](http://victorwoo.synology.me:8980/)
