@@ -1,8 +1,8 @@
 /*
 LanGongINC
 LanGongDEV
-ÖĞ¹úÀ¶¹â¿Æ¼¼¹É·İÓĞÏŞ¹«Ë¾
-ÖĞ¹úÀ¶¹â¿Æ¼¼¿ª·¢ÍÅ¶ÓDEV-TEAM
+ä¸­å›½è“å…‰ç§‘æŠ€è‚¡ä»½æœ‰é™å…¬å¸
+ä¸­å›½è“å…‰ç§‘æŠ€å¼€å‘å›¢é˜ŸDEV-TEAM
 copy right 2017~2020 
 */
 #include<iostream>
@@ -26,8 +26,8 @@ int keyboard()
 	while (1)
 	{
 		if (_kbhit())
-		{//Èç¹ûÓĞ°´¼ü°´ÏÂ£¬Ôò_kbhit()º¯Êı·µ»ØÕæ
-			ch = _getch();//Ê¹ÓÃ_getch()º¯Êı»ñÈ¡°´ÏÂµÄ¼üÖµ
+		{//å¦‚æœæœ‰æŒ‰é”®æŒ‰ä¸‹ï¼Œåˆ™_kbhit()å‡½æ•°è¿”å›çœŸ
+			ch = _getch();//ä½¿ç”¨_getch()å‡½æ•°è·å–æŒ‰ä¸‹çš„é”®å€¼
 			Sleep(10);
 			return ch;
 		}
@@ -113,13 +113,13 @@ void maken(){
 	putlevel(0);
 	level=getlevel();
 	putboot(1);
-	printf("ÕıÔÚ³õÊ¼»¯¡­¡­\n");
+	printf("æ­£åœ¨åˆå§‹åŒ–â€¦â€¦\n");
 	Sleep(1000);
-	printf("Éè¶¨ÄúµÄÓÃ»§Ãû\n");
+	printf("è®¾å®šæ‚¨çš„ç”¨æˆ·å\n");
 	string UserNameSET;
 	getline(cin,UserNameSET);
 	putuser(UserNameSET);
-	printf("¼´½«Íê³É¡­¡­");
+	printf("å³å°†å®Œæˆâ€¦â€¦");
 	Sleep(100);
 	system("cls");
 	Sleep(100);
@@ -129,21 +129,21 @@ int start(){
 	printf("\n\n\n              LanGongINC \n              LanGongDEV \n");
 	Sleep(3000);
 	system("cls");
-	printf("ÇëÉÔºó¡­¡­\n");
+	printf("è¯·ç¨åâ€¦â€¦\n");
 	level=getlevel();
 	system("cls");
-	printf("                ×²Fufu \n\n\n\n\n\n\n\n\n\n                 »¶Ó­\n");
+	printf("                æ’Fufu \n\n\n\n\n\n\n\n\n\n                 æ¬¢è¿\n");
 	Sleep(3000);
 	if(level==-1||getboot()!=1){
 		maken();
 	}
 	system("cls");
-	printf("              »¶Ó­");
+	printf("              æ¬¢è¿");
 	level=getlevel();
 	name=getuser();
 	cout<<name<<endl;
-	printf("             ÄúµÄµÈ¼¶%d\n\n\n\n",level);
-	printf("          ÍÆ¼öÊ¹ÓÃÓ¢ÎÄÊäÈë\n");
+	printf("             æ‚¨çš„ç­‰çº§%d\n\n\n\n",level);
+	printf("          æ¨èä½¿ç”¨è‹±æ–‡è¾“å…¥\n");
 	Sleep(2000);
 	"MB_OK";
 	if(level==-1){
@@ -159,13 +159,13 @@ int game(){
 		if(fx==hx&&fy==hy){
 			putlevel(level+1);
 			system("cls");
-			printf("ÓÎÏ·½áÊø£¬¹§Ï²£¡Ê¤Àû£¡³É¹¦½ú¼¶£¡ÄúµÄµÈ¼¶%d\n¼ÌĞøÓÎÏ·£¿[¼ÌĞø£ºq / Àë¿ª£ºEnter]\n",level+1);
+			printf("æ¸¸æˆç»“æŸï¼Œæ­å–œï¼èƒœåˆ©ï¼æˆåŠŸæ™‹çº§ï¼æ‚¨çš„ç­‰çº§%d\nç»§ç»­æ¸¸æˆï¼Ÿ[ç»§ç»­ï¼šq / ç¦»å¼€ï¼šEnter]\n",level+1);
 			while(1){
 				int r=check(keyboard());
 				if(r==9)return 1;
 				else if(r==13)return 0;
 				else{
-					printf("ERR4: ÊäÈëÎŞĞ§ ÇëÖØĞÂÊäÈë¡­¡­\n");
+					printf("ERR4: è¾“å…¥æ— æ•ˆ è¯·é‡æ–°è¾“å…¥â€¦â€¦\n");
 				}
 			}
 		}
@@ -183,7 +183,7 @@ int game(){
 			}
 			cout<<endl;
 		}
-		printf("\nÊ¹ÓÃ¡°ÉÏÏÂ×óÓÒ¡±°´¼üÒÔ¿ØÖÆĞ¡ÈË£¬°´ÏÂR¼üÖØĞÂ¿ªÊ¼\n");
+		printf("\nä½¿ç”¨â€œä¸Šä¸‹å·¦å³â€æŒ‰é”®ä»¥æ§åˆ¶å°äººï¼ŒæŒ‰ä¸‹Ré”®é‡æ–°å¼€å§‹\n");
 		int r=check(keyboard());
 		if(r==224)continue;
 		cout<<r;
@@ -196,7 +196,7 @@ int game(){
 		if(r==8){
 			system("cls");
 			putpalse();
-			printf("»º´æ¼ÓÔØÍê±Ï£¬ÔÙ¼û\n");
+			printf("ç¼“å­˜åŠ è½½å®Œæ¯•ï¼Œå†è§\n");
 			Sleep(2000);
 			exit(1);
 		}*/
@@ -204,21 +204,21 @@ int game(){
 			//move
 			system("cls");
 			if(hx+nx[r]<=1||hx+nx[r]>n-1||hy+ny[r]<=1||hy+ny[r]>n-1){
-				printf("----------ERR1:³ö½ç----------\n");
+				printf("----------ERR1:å‡ºç•Œ----------\n");
 				Sleep(1500);
 				continue;
 			}
 			if(field[hx+nx[r]][hy+ny[r]]==6){
 				putlevel(level+1);
 				system("cls");
-				printf("ÓÎÏ·½áÊø£¬¹§Ï²£¡Ê¤Àû£¡³É¹¦½ú¼¶£¡ÄúµÄµÈ¼¶%d\n¼ÌĞøÓÎÏ·£¿[¼ÌĞø£ºq / Àë¿ª£ºEnter]\n",level+1);
+				printf("æ¸¸æˆç»“æŸï¼Œæ­å–œï¼èƒœåˆ©ï¼æˆåŠŸæ™‹çº§ï¼æ‚¨çš„ç­‰çº§%d\nç»§ç»­æ¸¸æˆï¼Ÿ[ç»§ç»­ï¼šq / ç¦»å¼€ï¼šEnter]\n",level+1);
 				int r=check(keyboard());
 				while(1){
 					int r=check(keyboard());
 					if(r==9)return 1;
 					else if(r==13)return 0;
 					else{
-						printf("------ERR4: ÊäÈëÎŞĞ§ ÇëÖØĞÂÊäÈë------\n");
+						printf("------ERR4: è¾“å…¥æ— æ•ˆ è¯·é‡æ–°è¾“å…¥------\n");
 					}
 				}
 			}
@@ -229,7 +229,7 @@ int game(){
 				field[hx][hy]=5;
 				field[hx-nx[r]][hy-ny[r]]=0;
 			}
-//			printf("³É¹¦\n");
+//			printf("æˆåŠŸ\n");
 //			Sleep(1);
 //			cout<<hx<<hy<<endl;
 //			Sleep(5000);
@@ -350,7 +350,7 @@ void findpalse(){
 	}
 }
 void goodbye(){
-	printf("\n           »¶Ó­ÏÂ´ÎÔÙÀ´£¡\n\n\n\n\n           LanGongINC\n           LanGongDEV\n");
+	printf("\n           æ¬¢è¿ä¸‹æ¬¡å†æ¥ï¼\n\n\n\n\n           LanGongINC\n           LanGongDEV\n");
 }
 int main(){
 	if(start()){
