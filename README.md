@@ -6,7 +6,11 @@
 
 ![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide1.png)
 
+![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide2.png)
+
 若找不到文件请点击```assets```
+
+![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide3.png)
 
 ### 撞FuFu 更新日志
 ```
