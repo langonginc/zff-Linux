@@ -1,8 +1,8 @@
 # 撞FuFu
 
 ### 下载方式
-击上方```release```进入版本下载。
-**不要**直接下载**本页面**的```不要下载我！.cpp```!
+[击上方```release```进入版本下载。](https://github.com/langonginc/release)
+**不要**直接下载!
 
 ![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide1.png)
 
