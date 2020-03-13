@@ -1,0 +1,4 @@
+ERR1 : Outside出界 
+ERR2 : DownloadError下载错误 
+ERR3 : StartRunError启动运行错误
+ERR4 : InputError输入错误 

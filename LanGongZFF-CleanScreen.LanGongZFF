@@ -1,0 +1,12 @@
+#include"syscls.h"
+#include"checksys.h"
+#ifndef syscls
+	#define syscls() \
+	cout<<"SYSERR";\
+	exit(8);
+#endif
+/*
+made by LanGongDEV.
+Copyright 2020 LanGongINC
+This is Lan-ZFF GamesFiles (LanGongZFF Check System-used && LanGongZFF Clean The Screen-used).
+*/
