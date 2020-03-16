@@ -8,7 +8,7 @@
 
 ### 撞FuFu 更新日志
 ```
-2020年 2月22日 ZFF-Windows4.0正式上线
+2020年 3月13日 ZFF-Linux4.1正式上线
 2020年 2月22日 ZFF-Linux4.0正式上线
 2020年 2月20日 ZFF3.1正式上线
 2020年 2月 1日 ZFF3.1正在测试
@@ -25,7 +25,7 @@ zff从4.0版本开始将支持linux系统！**暂时测试中，稍后开放！*
 ### 帮助文档
 
 [Wiki](https://github.com/langonginc/zff/wiki/)
-
+|
 [个人中心](http://victorwoo.synology.me:8980/)
-
+|
 [个人博客](http://victorwoo.synology.me:8980/)
