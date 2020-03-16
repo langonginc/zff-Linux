@@ -1,16 +1,10 @@
 # 撞FuFu
 
 ### 下载方式
-[击上方```release```进入版本下载。](https://github.com/langonginc/zff-Linux/releases)
+[点击```release```进入版本下载。](https://github.com/langonginc/zff-Linux/releases)
 **不要**直接下载!
 
-![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide1.png)
-
-![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide2.png)
-
 若找不到文件请点击```assets```
-
-![release](http://victorwoo.synology.me:8980/outside_image/zff-installer-guide3.png)
 
 ### 撞FuFu 更新日志
 ```
