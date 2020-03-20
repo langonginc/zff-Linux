@@ -173,7 +173,7 @@ int start(){
 	system("clear");
 	printf("                撞Fufu \n\n\n\n\n\n\n\n\n\n                 欢迎!\n");
 	sleep(3);
-	if(level==-1||getboot()!=1){
+	if(getboot()!=0){
 		maken();
 	}
 	system("clear");
