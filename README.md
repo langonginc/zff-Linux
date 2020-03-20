@@ -1,6 +1,9 @@
 # 撞FuFu
 
 ### 下载方式
+
+下载前请先查看是否安装了「LanGong」，如果未安装请[点击这里进行安装](https://github.com/langonginc/LanGong-Linux/releases)。
+
 [点击```release```进入版本下载。](https://github.com/langonginc/zff-Linux/releases)
 **不要**直接下载!
 
