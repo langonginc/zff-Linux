@@ -1,5 +1,11 @@
 # 撞FuFu
 
+## 我们已经将LanGongZff从langonginc/zff-Linux移动到langong-dev/Zff
+
+我们已经创建了团队，所有的仓库均已经移动到langong-dev团队仓库，您可以到哪里查看。
+
+`ZffLinux版本>=5.*` 的全部版本已经移动到langong-dev/Zff。
+
 ### 下载方式
 
 下载前请先查看是否安装了「LanGong」，如果未安装请[点击这里进行安装](https://github.com/langonginc/LanGong-Linux/releases)。
@@ -8,15 +14,6 @@
 **不要**直接下载!
 
 若找不到文件请点击```assets```
-
-### 撞FuFu 更新日志
-```
-2020年 3月13日 ZFF-Linux4.1正式上线
-2020年 2月22日 ZFF-Linux4.0正式上线
-2020年 2月20日 ZFF3.1正式上线
-2020年 2月 1日 ZFF3.1正在测试
-2020年 1月10日 ZFF3.0正式版上线
-```
 
 ### Wiki
 点击上方**Wiki**进入Wiki
@@ -28,7 +25,3 @@ zff从4.0版本开始将支持linux系统！**暂时测试中，稍后开放！*
 ### 帮助文档
 
 [Wiki](https://github.com/langonginc/zff/wiki/)
-|
-[个人中心](http://victorwoo.synology.me:8980/)
-|
-[个人博客](http://victorwoo.synology.me:516/)
