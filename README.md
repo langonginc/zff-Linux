@@ -1,10 +1,10 @@
 # 撞FuFu
 
-## 我们已经将LanGongZff从langonginc/zff-Linux移动到langong-dev/Zff
+## 我们已经将LanGongZff从langonginc/zff-Linux移动到ohzff/Zff
 
-我们已经创建了团队，所有的仓库均已经移动到langong-dev团队仓库，您可以到哪里查看。
+我们已经创建了团队，所有的仓库均已经移动到zff官方仓库，您可以到哪里查看。
 
-`ZffLinux版本>=5.*` 的全部版本已经移动到langong-dev/Zff。
+`ZffLinux版本>=5.*` 的全部版本已经移动到ohzff/Zff。
 
 ### 下载方式
 
@@ -17,11 +17,3 @@
 
 ### Wiki
 点击上方**Wiki**进入Wiki
-
-### 喜讯
-
-zff从4.0版本开始将支持linux系统！**暂时测试中，稍后开放！**
-
-### 帮助文档
-
-[Wiki](https://github.com/langonginc/zff/wiki/)
